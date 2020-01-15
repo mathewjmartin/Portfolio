@@ -15,18 +15,20 @@ menu {
 }
 
 nav {
-		background-color: rgba(112,128,144,0.8);
+		background-color: rgba(112,128,144,1);
 	    height: 60px;
-	    padding-left: 70px;
-	    font-weight: ;
 	    position: fixed;
-	    margin: 0 auto;
+		text-align: center;
 	    width: 100%;
 		top: 0;
 }
 
+nav ul {
+	padding: 0;
+	overflow: auto;
+}
+
 nav li {
-	display: inline-block;
 	list-style: none;
 	float: left;
 	width: 25%;
@@ -34,7 +36,8 @@ nav li {
 }
 
 ul li a {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 18px;
@@ -54,7 +57,7 @@ ul li a {
 
 .hero {
 	padding-top: 200px;
-	background-image: url("Images/herocopy.jpg");
+	background-image: url("Images/hero1.jpg");
 	background-size: cover;
 	height: 700px;
 }
@@ -63,7 +66,8 @@ ul li a {
 	color: #708090;
 	font-size: 48px;
 	margin-bottom: 10px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
 }
 
 .hero h1 span {
@@ -74,13 +78,17 @@ ul li a {
 
 .hero h2 {
 	color: #708090;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
 	font-size: 38px;
 	padding-top: 0px;
 }
 
 .about {
-	background-color: gray;
+	background-color: white;
+	color: #708090;
+	font-family: 'Roboto', sans-serif;
+	
 }
 
 .title-style1 {
@@ -88,33 +96,43 @@ ul li a {
 	top: 100px
 }
 
-menu a:hover {
-	color: gray;	
+.menu a:hover {
+	color: #1846B5;
+	/*text-decoration: underline;*/
 }
 
 button {
 	height: 40px;
 	width: 200px;
 	font-size: 22px;
-	color: #708090;
+	color: #1846B5;
 	border-radius: 10px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
 	background-color: rgba(255,255,255,0.8);
 }
 
+.portfolio {
+	background-color: rgba(112,128,144,0.1);
+}
 
+.about h1 {
+	color: #1846B5;
+	font-size: 38px;
+	font-family: 'Roboto Mono', monospace;
+}
 
+.portfolio h1 {
+	color: #1846B5;
+	font-size: 38px;
+	font-family: 'Roboto Mono', monospace;
+}
 
-
-
-
-
-
-
-
-
-
-
+.contact h1 {
+	color: #ffffff;
+	font-size: 38px;
+	font-family: 'Roboto Mono', monospace;
+}
 
 footer {
 	height: 30px;
@@ -122,4 +140,18 @@ footer {
 	background-color: #a9a9a9;
 	color: #ffffff;
 	text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+	.container {
+		width: 600px;
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 300px;
+
+	}
 }
