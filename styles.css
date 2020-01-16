@@ -81,7 +81,8 @@ ul li a {
 .about {
 	background-color: white;
 	color: #708090;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
 }
 
 .title-style1 {
@@ -116,6 +117,18 @@ button {
 	background-color: rgba(112,128,144,0.1);
 }
 
+.portfolio h3 {
+	color: #1846B5;
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.portfolio p {
+	color: #708090;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
 .about h1 {
 	color: #1846B5;
 	font-size: 38px;
@@ -123,13 +136,35 @@ button {
 }
 
 .portfolio h1 {
+	padding-top: 20px;
 	color: #1846B5;
 	font-size: 38px;
 	font-family: 'Roboto Mono', monospace;
 }
 
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .contact h1 {
-	color: #ffffff;
+	color: #1846B5;
 	font-size: 38px;
 	font-family: 'Roboto Mono', monospace;
 }
@@ -153,3 +188,16 @@ footer {
 		width: 300px;
 	}
 }
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
