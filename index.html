@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <title>My Portfolio</title>
 </head>
 
@@ -36,14 +37,18 @@
     <section id="aboutme" class="about">
         <div class="container">
             <h1>{A little bit about me...}</h1>
-            <div class="profilepic">
-                <img class="profileimage" src="Images/me.jpg">
-            </div>
-            <p>I'm a full stack web developer in training at the Mayden Academy in Bath. After a varied career I decided to embark on a journey in coding and developing after getting frustrated with not being able to implement ideas swimming around my head.</p>
+<!--            <div class="profilepic">-->
+<!--                <img class="profileimage" src="Images/me.jpg">-->
+<!--            </div>-->
+            <p>I'm a recent graduate of the Mayden Academy and a Bath based full-stack developer looking for my first role
+                in the software industry. I'm passionate about software development and have experience working in a variety of
+                languages and technologies including HTML, CSS, JavaScript, PHP, MySQL, node.js and React. I'm also a Certified
+                Scrum Master and have experience working remotely on team projects using Scrum and Agile methodologies.</p>
 
-            <p>In my spare time I enjoy photography and music, and I love being outdoors and spending time with my family.</p>
+            <p>In my spare time you'll find me taking photographs of things, running, walking or cycling in the countryside,
+                cooking, listening to a lot of music and watching a movie or two.</p>
 
-            <p>Please keep scrolling to see some of my work.</p>
+            <p>Take a look at some of my projects and work and if you like what you see please get in touch!</p>
         </div>
     </section>
 
@@ -59,8 +64,8 @@
                             </figure>
                         <a/>
                         <h3>Match Mayden Heaven</h3>
-                        <p>A matching pairs game created as a team project using HTML and CSS for static UI elements.
-                            JavaScript (ES6) was used for the game engine and dynamic UI elements.</p>
+                        <p>A matching pairs game created as a team project using HTML & CSS for static UI elements.
+                            JavaScript was used for the game engine and dynamic UI elements.</p>
                     </div>
                 </div>
 
@@ -73,7 +78,7 @@
                         </a>
                         <h3>Collections App</h3>
                         <p>A collections app using a database to store, retrieve, display and add new items.
-                            HTML/CSS for the UI PHP for communication with the database and templating.</p>
+                            HTML/CSS for the UI, PHP for communication with the database and templating.</p>
                     </div>
                 </div>
 
@@ -85,7 +90,7 @@
                             </figure>
                         </a>
                         <h3>Mayden Aptitude Test</h3>
-                        <p>An aptitude tests manager using HTML and Sass for the FE, with JavaScript (ES6) for fetch requests
+                        <p>An aptitude tests manager using HTML & Sass for the FE, with JavaScript for fetch requests
                             to retrieve data from an API to populate pages, and Handlebars for templating.</p>
                     </div>
                 </div>
@@ -118,13 +123,14 @@
 
                 <div class="column">
                     <div class="content">
-                        <a href='https://codepen.io/mathewjmartin/pen/WNvRoOQ' target='_blank'>
+                        <a href='https://github.com/Mayden-Academy/2020-jan-MKLeaderboard' target='_blank'>
                             <figure>
-                        <img src="Images/solarSystem.png" alt="placeholder" style="width:100%">
+                        <img src="Images/mario.png" alt="placeholder" style="width:100%">
                             </figure>
                         </a>
-                        <h3>Solar System</h3>
-                        <p>A very basic, rudimentary and totally inaccurate depiction of the solar system built in CodePen using SVG's</p>
+                        <h3>Mario Kart Wii API</h3>
+                        <p>We created a RESTful API for tracking race performances in Mario Kart Wii
+                            using node.js, Express & MongoDB. We created a front end UI to consume the API using React.</p>
                     </div>
                 </div>
             </div>
@@ -133,18 +139,27 @@
 	<section class="contact">
 		   <div id="contactme" class="container">
 		       <h1>{Contact Me}</h1>
-		       <p>If you like what you see, please feel free to get in touch.</p>
-			<h2>You can e-mail me at <span>matthewjmartin@zoho.com</span></h2>
+			    <h2>You can e-mail me at <span>matthewjmartin@zoho.com</span></h2>
+                   <div class="social-buttons">
+                       <div>
+                           <a href="https://github.com/mathewjmartin" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                       </div>
+                       <div>
+                           <a href="https://www.linkedin.com/in/matt-martin-99587799" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                       </div>
+                       <div>
+                           <a href="https://twitter.com/mathewjmartin" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                       </div>
+                   </div>
 		   </div>
 	</section>
 		
 		
 	<section class="container">
-		<div id="footer" class="container">
+		<div id="footer" class="footer">
 		    <footer>
 		        <p>Matt Martin &copy2020</p>
 		    </footer>
 		</div>
 	</section>
-
 </body>

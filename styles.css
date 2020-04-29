@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -206,10 +210,39 @@ figure:hover img {
 	color: #1846B5;
 }
 
+.social-buttons {
+	width: 100%;
+	height: 50%;
+	margin-top: 2.5%;
+}
+
+.social-buttons div {
+	width: 33%;
+	height: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.social-buttons a {
+	color: #708090;
+}
+
+.social-buttons ion-icon {
+	font-size: 50px;
+	overflow: hidden;
+	transition-duration: 1s;
+	transition-property: transform;
+}
+
+.social-buttons ion-icon:hover {
+	font-size: 45px;
+	cursor: pointer;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	color: #1846B5;
+}
+
 footer {
-	height: 50px;
-	margin-top: 10px;
-	background-color: #ffffff;
 	color: #a9a9a9;
 	text-align: center;
 	width: 100%;
@@ -217,7 +250,8 @@ footer {
 }
 
 footer p {
-	padding-top: 20px;
+	height: 50px;
+	margin-top: 20px;
 	font-family: 'Roboto Mono', monospace;
 }
 
